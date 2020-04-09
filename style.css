@@ -1,0 +1,32 @@
+#body{
+  background-color:rgb(245,112,45);
+}
+ #heading{
+   letter-spacing: 5px;
+   font-family: CURLZ MT;
+   color:rgb(225,254,245);
+   word-spacing: 15px;
+   text-shadow: blue 3px 3px 7px;
+ }
+ .content{
+   width: 100%;height: 300px;
+   position: relative;
+   background-color:rgb(154,126,168);
+   border-width: 3px;
+   border-style: dashed;
+   margin-top: 140px;
+   left: 0;
+ }
+ .content img{
+   width:450px;height:450px;
+   position:absolute;
+   left: 0;
+   animation-name:foodchain;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+ @keyframes foodchain{
+  from{left: 0%;}
+  to{left: 90%;}
+ }
