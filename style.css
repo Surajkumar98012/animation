@@ -1,24 +1,26 @@
-#body{
-  background-color:rgb(245,112,45);
-}
- #heading{
-   letter-spacing: 5px;
-   font-family: CURLZ MT;
-   color:rgb(225,254,245);
-   word-spacing: 15px;
-   text-shadow: blue 3px 3px 7px;
- }
+body{
+    background-image: url(jungle.jpg);}
  .content{
-   width: 100%;height: 300px;
+   width: 100%;height: 620px;
    position: relative;
-   background-color:rgb(154,126,168);
-   border-width: 3px;
-   border-style: dashed;
-   margin-top: 140px;
+   margin-top: 3px;
    left: 0;
  }
  .content img{
-   width:450px;height:450px;
+   width:550px;height:550px;
+   position:absolute;
+   padding-left: 200px;
+   padding-top: 140px;
+   left: 0;
+   animation-name:foodchain;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+#men img{
+   width:280px;height:280px;
+   padding-top: 220px;
+   padding-left: 50px;
    position:absolute;
    left: 0;
    animation-name:foodchain;
@@ -26,6 +28,52 @@
    animation-timing-function: linear;
    animation-iteration-count: infinite;
  }
+ #goat img{
+   width:180px;height:180px;
+   padding-top: 290px;
+   padding-left: 450px;
+   position:absolute;
+   left: 0;
+   animation-name:foodchain;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+
+  #ass img{
+   width:180px;height:180px;
+   padding-top: 290px;
+   padding-left: 350px;
+   position:absolute;
+   left: 0;
+   animation-name:foodchain;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+  #bull img{
+   width:180px;height:180px;
+   padding-top: 290px;
+   padding-left: 250px;
+   position:absolute;
+   left: 0;
+   animation-name:foodchain;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+  #lion2 img{
+   width:200px;height:200px;
+   padding-top: 290px;
+   padding-left: 50px;
+   position:absolute;
+   left: 0;
+   animation-name:foodchain;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+
  @keyframes foodchain{
   from{left: 0%;}
   to{left: 90%;}
